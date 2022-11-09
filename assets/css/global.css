@@ -1,0 +1,41 @@
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+/* <script>
+                $(document).ready(function () {
+                  $(".owl-carousel").owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    responsive: {
+                      0: {
+                        items: 1,
+                      },
+                      600: {
+                        items: 3,
+                      },
+                      1000: {
+                        items: 5,
+                      },
+                    },
+                  });
+                });
+              </script>
+              <div class="owl-carousel">
+                <div class="slide-img">
+                  <a href=""><img src="./images/slide_1.png" alt="" /></a>
+                </div>
+                <div class="slide-img">
+                  <a href=""><img src="./images/slide_2.png" alt="" /></a>
+                </div>
+                <div class="slide-img">
+                  <a href=""><img src="./images/slide_3.png" alt="" /></a>
+                </div>
+                <div class="slide-img">
+                  <a href=""><img src="./images/slide_2.png" alt="" /></a>
+                </div>
+                <div class="slide-img">
+                  <a href=""><img src="./images/slide_1.png" alt="" /></a>
+                </div>
+              </div> */
