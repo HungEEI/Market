@@ -113,6 +113,10 @@ ul.list-login li a {
   padding: 0;
 }
 
+.box {
+  position: relative;
+}
+
 .box-shopping {
   width: 46px;
   height: 36px;
@@ -127,6 +131,17 @@ ul.list-login li a {
   color: #ffffff;
   font-size: 1.8rem;
   line-height: 1;
+}
+
+.box-product {
+  position: absolute;
+  padding: 2px 8px;
+  background-color: #29beff;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  top: -10px;
+  right: -11px;
+  color: #fff;
 }
 
 #header-content .header-content-shop {
@@ -216,6 +231,38 @@ ul#list-product-left li a,
 ul#list-product-right li a {
   color: #222222;
   font-weight: bold;
+}
+
+.spec {
+  position: relative;
+}
+
+.list-spec {
+  list-style: none;
+  display: none;
+  position: absolute;
+  z-index: 99;
+  top: 18px;
+  min-width: 82px;
+  background-color: #ccc;
+}
+
+.list-spec li {
+  padding: 0 4px !important;
+  margin: 6px 0;
+}
+
+.list-spec li a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.spec:hover .list-spec {
+  display: block;
+}
+
+.line-spec {
+  border-bottom: 1px solid #222222;
 }
 
 ul#list-product-left li:first-child {
@@ -514,6 +561,10 @@ ul#list-product-icon li a {
   color: #999999;
 }
 
+ul#list-product-icon li:hover a {
+  color: #e74c3c;
+}
+
 .scale-img {
   display: block;
   overflow: hidden;
@@ -538,7 +589,7 @@ ul#list-product-icon li a {
 }
 
 .box-line-shop-list {
-  border: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
   background-color: #dddddd;
   margin-top: 6px;
 }
@@ -558,6 +609,7 @@ li.list-left-color:hover a {
   display: flex;
   justify-content: space-between;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .infor-line {
@@ -690,7 +742,7 @@ ul#list-icon-footer li a .fa-youtube {
 .box-line-shop-list-footer {
   width: 1230px;
   margin: 0 auto;
-  border: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
   background-color: #dddddd;
 }
 
@@ -786,6 +838,10 @@ ul#list-icon-footer li a .fa-youtube {
   padding-top: 10px;
 }
 
+.copyright-color a:hover {
+  text-decoration: none;
+}
+
 ul#copyright-bank {
   list-style: none;
   display: flex;
@@ -795,10 +851,10 @@ ul#copyright-bank {
   margin-bottom: 0;
 }
 
-li a {
+ul#copyright-bank li a {
   color: #a3a3a3;
-  line-height: 0.5rem;
   padding: 0 3px;
+  font-size: 2.2rem;
 }
 
 ul#copyright-bank li:last-child a {
